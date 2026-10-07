@@ -149,6 +149,7 @@
     padding:18px; margin-bottom:14px;
   }
   .card h3{margin:0 0 10px; font-size:16px; font-weight:800;}
+  .mid{background:var(--navy);color:#FFD43B;font-weight:800;padding:1px 3px;border-radius:5px;white-space:nowrap;}
   .grid2{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
   @media(max-width:480px){.grid2{grid-template-columns:1fr;}}
 
@@ -472,24 +473,69 @@
       <div style="overflow-x:auto;">
       <table>
         <tr><th>졸업</th><th>장유고</th><th>삼문고</th><th>대청고</th><th>율하고</th><th>수남고</th></tr>
-        <tr><td>2019</td><td>86</td><td>87</td><td>88</td><td class="hi">89</td><td>88</td></tr>
-        <tr><td>2020</td><td class="hi">87</td><td>79</td><td>87</td><td>85</td><td>86</td></tr>
-        <tr><td>2021</td><td>87</td><td>87</td><td class="hi">98</td><td>98</td><td>87</td></tr>
-        <tr><td>2022</td><td>76</td><td class="hi">82</td><td>81</td><td>77</td><td>75</td></tr>
-        <tr><td>2023</td><td class="hi">80</td><td>77</td><td>80</td><td>73</td><td>74</td></tr>
-        <tr><td>2024</td><td class="hi">82</td><td>82</td><td>77</td><td>75</td><td>76</td></tr>
-        <tr><td>2025</td><td>75</td><td class="hi">86</td><td>80</td><td>81</td><td>72</td></tr>
-        <tr class="prov">
-          <td>2026</td>
-          <td>69<br><span style="color:var(--coral);font-weight:800;">초과 13명</span></td>
-          <td>79<br><span style="color:var(--coral);font-weight:800;">초과 38명</span></td>
-          <td>84<br><span style="color:var(--coral);font-weight:800;">초과 7명</span></td>
-          <td>84<br><span style="color:var(--coral);font-weight:800;">초과 3명</span></td>
-          <td>미달<br><span style="color:var(--navy-soft);font-weight:800;">부족 6명</span></td>
-        </tr>
+        <tr><td>2022</td><td>70중반</td><td class="hi">80초반</td><td>80초반</td><td>70후반</td><td><span class="mid">70중반</span></td></tr>
+        <tr><td>2023</td><td class="hi">80초반</td><td>70후반</td><td>80초반</td><td><span class="mid">70초반</span></td><td>70중반</td></tr>
+        <tr><td>2024</td><td class="hi">80초반</td><td>80초반</td><td>70후반</td><td><span class="mid">70중반</span></td><td>70중반</td></tr>
+        <tr><td>2025</td><td>70중반</td><td class="hi">80중반</td><td>80초반</td><td>80초반</td><td><span class="mid">70초반</span></td></tr>
+        <tr class="prov"><td>2026</td><td><span class="mid">60후반</span></td><td>70후반</td><td>80중반</td><td>80중반</td><td>미달</td></tr>
       </table>
       </div>
-      <p style="font-size:11px;color:var(--muted);margin:10px 0 0;line-height:1.6;">※ 위 자료는 참고 자료이니 참고만 부탁드립니다.</p>
+      <p style="font-size:11px;color:var(--muted);margin:10px 0 0;line-height:1.6;"><span class="mid">노란 글씨</span>는 그 해 5개교 중 <b>컷트라인이 가장 높은 학교</b>(백분율 숫자는 가장 낮음)입니다.<br>※ 위 자료는 참고 자료이니 참고만 부탁드립니다.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔮 현 3학년의 장유 가능성</h3>
+      <p style="font-size:12.5px;color:var(--muted);margin:0 0 10px;line-height:1.6;">장유 지역 중학교 3학년 학생 수와 장유 지역 고등학교 입학 정원을 비교해 본 자료예요.</p>
+      <div style="font-size:12.5px;font-weight:800;color:var(--navy);margin:4px 0 6px;">① 2027학년도 장유 관내 고등학교 입학 정원</div>
+      <div style="overflow-x:auto;">
+      <table>
+        <tr><th>학교명</th><th>유형</th><th>학급</th><th>정원</th></tr>
+        <tr><td>김해삼문고</td><td>일반고</td><td>12</td><td>348</td></tr>
+        <tr><td>장유고</td><td>일반고</td><td>13</td><td>377</td></tr>
+        <tr><td>김해대청고</td><td>일반고</td><td>13</td><td>377</td></tr>
+        <tr><td>김해율하고</td><td>일반고</td><td>11</td><td>319</td></tr>
+        <tr><td>김해수남고</td><td>일반고</td><td>12</td><td>348</td></tr>
+        <tr style="font-weight:800;background:var(--cream, #fff8e6);"><td colspan="2">합계</td><td>61</td><td>1,769</td></tr>
+      </table>
+      </div>
+      <div style="font-size:12.5px;font-weight:800;color:var(--navy);margin:16px 0 6px;">② 2026학년도 장유 관내 중학교 학생 수</div>
+      <div style="overflow-x:auto;">
+      <table>
+        <tr><th>학교명</th><th>설립</th><th>학급</th><th>학생 수</th></tr>
+        <tr><td>관동중학교</td><td>공립</td><td>9</td><td>248</td></tr>
+        <tr><td>대청중학교</td><td>공립</td><td>11</td><td>309</td></tr>
+        <tr><td>모산중학교</td><td>공립</td><td>12</td><td>333</td></tr>
+        <tr><td>내덕중학교</td><td>공립</td><td>4</td><td>92</td></tr>
+        <tr><td>능동중학교</td><td>공립</td><td>10</td><td>285</td></tr>
+        <tr><td>수남중학교</td><td>공립</td><td>12</td><td>352</td></tr>
+        <tr><td>월산중학교</td><td>공립</td><td>10</td><td>283</td></tr>
+        <tr><td>율하중학교</td><td>공립</td><td>13</td><td>390</td></tr>
+        <tr><td>장유중학교</td><td>사립</td><td>6</td><td>180</td></tr>
+        <tr style="font-weight:800;background:var(--cream, #fff8e6);"><td colspan="2">합계</td><td>87</td><td>2,472</td></tr>
+      </table>
+      </div>
+      <div style="font-size:12.5px;font-weight:800;color:var(--navy);margin:16px 0 6px;">③ 정원 − 학생 수</div>
+      <div style="overflow-x:auto;">
+      <table>
+        <tr><th>고교 정원</th><th>중학교 학생 수</th><th>차이</th></tr>
+        <tr><td>1,769명</td><td>2,472명</td><td class="hi">−703명</td></tr>
+      </table>
+      </div>
+      <div class="note gold">
+        <span class="emo">📐</span>
+        <span>차이 703명 ÷ 중학교 학생 수 2,472명 × 100 = <b>28.44%</b><br>산술적인 커트라인 : 100 − 28.44 = <b style="color:var(--coral);">71.56</b></span>
+      </div>
+
+      <div style="font-size:12.5px;font-weight:800;color:var(--navy);margin:14px 0 6px;">컷을 움직이는 변수</div>
+      <div class="grid2">
+        <div style="background:#eef7ee;border-radius:12px;padding:10px 12px;font-size:12.3px;line-height:1.65;">
+          <b style="color:#2e7d32;">IN (지원자 늘어남)</b><br>· 10월 31일 이전 전입<br>· 대청고 기숙사를 원하는 학생<br>· 장유고를 좋아하는 학생 등
+        </div>
+        <div style="background:#fdeeee;border-radius:12px;padding:10px 12px;font-size:12.3px;line-height:1.65;">
+          <b style="color:var(--coral);">OUT (지원자 줄어듦)</b><br>· 10월 31일 이전 전출<br>· 특목고·마이스터고 합격 등
+        </div>
+      </div>
+      <p style="font-size:11px;color:var(--muted);margin:10px 0 0;line-height:1.6;">※ 단순 인원 비교로 계산한 산술적인 값이니 참고만 부탁드립니다.</p>
     </div>
 
     <div class="card">
